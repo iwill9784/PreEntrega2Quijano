@@ -1,0 +1,160 @@
+@media(max-width:991px){
+    
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: aqua;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    .menu .navbar ul li a{
+        color: aquamarine;
+    }
+    
+    .menu .navbar ul li a:hover{
+        color: chocolate;
+    }
+    
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header-content{
+        flex-direction: column;
+        padding: 100px 30px 0 30px;
+    }
+    .header-txt{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    
+    }
+    .header-txt h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-img{
+        width: 100%;
+        text-align: center;
+    }
+    .header-img img{
+        width: 300px;
+    }
+.footer .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:30px;
+    padding: 35px 0px;
+}
+.contenedor h1{
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: 9%;
+    margin: auto;
+    display: flex;
+     width: 342px;
+    text-align: center;
+}
+.contenedor p{
+    font-size: 0.7rem;
+    color: white;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    top: 33%;
+    text-align: center;
+}
+.info{
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+}
+.infocontainer{
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+}
+
+.info-1{
+    text-align: center;
+    width: 100%;
+    order: 2;
+
+}
+.info-1 img{
+    width: 250px;
+    margin-bottom: 50px;
+}
+.info-2 {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.info-2 img{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.infocontainer{
+flex-direction: column;
+padding: 0 30px 0 30px;
+}
+.services{
+flex-direction: column;
+padding: 0 30px 0 30px;
+}
+h2{
+font-size: 30px;
+}
+
+.servicio{
+padding: 30px;
+}
+.servicio-content{
+margin-top: 15px;
+grid-template-columns: repeat(1,1fr);
+}
+.mision{
+display: flex;
+flex-direction: column;
+
+padding-bottom: 20px;
+background-color: #E2E2E2;
+}
+.profesores{
+display: flex;
+flex-direction: column;
+
+padding-bottom: 20px;
+}
+.info-2 img{
+width: 250px;
+margin-left: 0px;
+margin-bottom: 50px;
+}
+.wide {
+grid-column: span 2;
+}
+
+.tall {
+grid-row: span 2;
+}
+    .container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 50px;
+}
+}

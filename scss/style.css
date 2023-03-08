@@ -1,0 +1,78 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  background-color: E9E9E9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 96px;
+}
+.header header-content {
+  display: flex;
+  align-items: center;
+}
+.header .header-txt {
+  width: 50%;
+}
+.header .header-txt h1 {
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.header .header-txt span {
+  font-size: 40px;
+  color: white;
+}
+.header .header-img {
+  width: 50%;
+}
+.header .header-img img {
+  width: 700px;
+}
+.header .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.header .menu .menu.logo {
+  color: antiquewhite;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.header .menu .menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.header .menu .menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  list-style: none;
+  text-decoration: none;
+}
+.header .menu .menu .navbar ul li a:hover {
+  background-color: #DCBA8C;
+  color: white;
+}
+.header .menu #menu {
+  display: none;
+}
+.header .menu .menu-icono {
+  width: 25px;
+}
+.header .menu .menu label {
+  cursor: pointer;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
